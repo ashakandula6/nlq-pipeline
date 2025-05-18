@@ -12,3 +12,15 @@ This project allows users to query databases using natural language (e.g., “Sh
 - Powered by Gemini Flash LLM and Google Generative AI API.
 
 ## 📁 Project Structure
+
+nlq-pipeline/
+├── app.py               # Main Streamlit app
+├── db_connectors.py     # Database connection logic
+├── query_generator.py   # Query generation using Gemini Flash LLM
+├── schema_detector.py   # Schema extraction logic
+├── requirements.txt     # Dependencies
+├── sample_data/         # Sample database setup scripts
+│   ├── mariadb_setup.sql
+│   ├── mongodb_setup.js
+│   ├── postgres_setup.sql
+└── .gitignore           # Excludes pycache, venv, .env
