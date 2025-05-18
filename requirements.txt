@@ -1,0 +1,8 @@
+streamlit==1.38.0
+langchain==0.2.16
+langchain-google-genai==1.0.8
+python-dotenv==1.0.1
+psycopg2-binary==2.9.9
+pymongo==4.8.0
+mysql-connector-python==8.4.0
+pandas==2.2.2
